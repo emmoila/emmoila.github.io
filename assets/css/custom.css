@@ -1,0 +1,27 @@
+.picOverlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.45);
+}
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #222;
+}
+
+.modal-header {
+  background: #009999;
+}
+
+/*.modal-header {
+  background: #3498db;
+}*/
+
+@font-face {
+font-family: bizchartz;
+src: url("../fonts/bizchartz.otf") format("opentype");
+}
+
+.biz{
+	font-family: bizchartz;
+}
