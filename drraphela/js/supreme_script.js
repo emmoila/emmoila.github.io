@@ -9,7 +9,7 @@ jQuery(function($) {
             // load google map
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCShPR36rLY0UlHbf6qofFnC2JdzJJpvzw&sensor=false&' +
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ67MR4r_y6xoOd8gx1IWpjNrKvMVLPog&sensor=false&' +
             'callback=initialize';
         document.body.appendChild(script);
 
@@ -70,7 +70,7 @@ jQuery(function($) {
 function initialize() {
     var mapOptions = {
       zoom: 17,
-      center: new google.maps.LatLng(-25.66638,27.2352113,17)
+      center: new google.maps.LatLng(-24.67252,30.3241959,17)
     };
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
